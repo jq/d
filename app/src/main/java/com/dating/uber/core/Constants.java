@@ -79,8 +79,8 @@ public final class Constants {
         public static final String PARAM_PASSWORD = "password";
 
 
-        public static final String PARSE_APP_ID = "zHb2bVia6kgilYRWWdmTiEJooYA17NnkBSUVsr4H";
-        public static final String PARSE_REST_API_KEY = "N2kCY1T3t3Jfhf9zpJ5MCURn3b25UpACILhnf5u9";
+        public static final String PARSE_APP_ID = "KXDDxoA4Rq8FLCmjFY0TQkNAK36K4sJLccB1Ybpj";
+        public static final String PARSE_REST_API_KEY = "kI1dWBUK7TiTgOmjvjkv6oV59uK1fKegA6rLiyuc";
         public static final String HEADER_PARSE_REST_API_KEY = "X-Parse-REST-API-Key";
         public static final String HEADER_PARSE_APP_ID = "X-Parse-Application-Id";
         public static final String CONTENT_TYPE_JSON = "application/json";
