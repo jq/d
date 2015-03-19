@@ -6,6 +6,11 @@ import android.app.Application;
 import android.app.Instrumentation;
 import android.content.Context;
 
+import com.dating.uber.core.Constants;
+import com.parse.Parse;
+import com.parse.ParseFacebookUtils;
+import com.parse.ParseUser;
+
 /**
  * uber dating application
  */
@@ -37,6 +42,11 @@ public class BootstrapApplication extends Application {
 
         // Perform injection
         Injector.init(getRootModule(), this);
+        Parse.enableLocalDatastore(this);
+
+        Parse.initialize(this, Constants.PARSE_APP_ID, "WXEgM4pUJGU6xhhpO9FUwrIYVFHl0eqD1BjY2Rf6");
+        ParseFacebookUtils.initialize(getString(R.string.facebook_app_id));
+        currentUser = ParseUser.getCurrentUser();
 
     }
 

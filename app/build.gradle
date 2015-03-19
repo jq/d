@@ -30,7 +30,8 @@ dependencies {
     compile 'com.squareup.picasso:picasso:1.1.1'
     compile 'com.squareup.retrofit:retrofit:1.5.1'
     compile project(':facebook')
-
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
 
 
     androidTestCompile 'junit:junit:4.11'
